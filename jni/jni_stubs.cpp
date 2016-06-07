@@ -369,7 +369,7 @@ JNIEXPORT jint JNICALL Java_com_peculiargames_andmodplug_PlayerThread_ModPlug_1J
   /*
    * Now convert the C sample buffer data to a java short array.
    */
-  if (size && samplebuffer && (smpsize || currsample < SAMPLEBUFFERSIZE))
+  if (size && (smpsize || currsample < SAMPLEBUFFERSIZE))
   {
     env->SetShortArrayRegion(jbuffer, 0 ,size, (jshort *) (((char *) samplebuffer)+currsample));
     currsample += size*sizeof(jshort);
