@@ -8,7 +8,7 @@ LOCAL_CERTIFICATE := platform
 
 LOCAL_SRC_FILES := $(call all-java-files-under)
 
-LOCAL_SHARED_LIBRARIES := modplug-1.0
+LOCAL_SHARED_LIBRARIES := libmodplug-1.0
 
 include $(BUILD_PACKAGE)
 
