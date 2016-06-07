@@ -72,4 +72,6 @@ LOCAL_SRC_FILES := fastmix.cpp \
 		sndmix.cpp \
 		jni_stubs.cpp 
 
+LOCAL_STATIC_LIBRARIES := liblog
+
 include $(BUILD_SHARED_LIBRARY)
