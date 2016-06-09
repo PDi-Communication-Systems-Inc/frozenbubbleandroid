@@ -28,7 +28,7 @@ LOCAL_CPP_INCLUDES := $(LOCAL_PATH)/libmodplug $(LOCAL_PATH)/..
 #
 LOCAL_CFLAGS := -DSMALLER_READS -DHAVE_SINF -DHAVE_SETENV \
                 -DMODPLUG_TRACKER -DPECULIAR_EXTENSIONS -DPECULIAR_FOURBYFOUR
-LOCAL_LDLIBS := -llog
+#LOCAL_LDLIBS := -llog
 LOCAL_MODULE := libmodplug-1.0
 #
 # These are all the source files that come in the libmodplug archive
